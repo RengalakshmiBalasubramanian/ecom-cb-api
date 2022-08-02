@@ -7,7 +7,7 @@ const router = express.Router()
 
 router.post('/create', controller.create)
 
-router.get('/read', controller.read)
-
+router.get('/login', controller.login)
+router.post('/save', controller.save)
 
 module.exports = router
