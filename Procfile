@@ -1,1 +1,1 @@
-web: node index.js
+web: node ecom-cb-api/index.js
